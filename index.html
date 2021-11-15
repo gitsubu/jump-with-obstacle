@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obstacle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dynamics.js"></script>
+</head>
+<body>
+    <div class="outer-rect">
+        <div id="smallrect" quadrant=0 class="smallrect quadrant0"></div>
+        <div class="obstacle"></div>
+    </div>
+    <button class="previous btn" onclick="anticlockwise()">Previous</button>
+    <button class="next btn" onclick="clockwise()">Next</button>
+    <div class="container">
+        <div class="label">Cycles:</div>
+        <div id="cycles"></div>
+    </div>
+</body>
+</html>

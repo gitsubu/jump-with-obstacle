@@ -1,0 +1,76 @@
+.outer-rect{
+    position: relative;
+    height: 50vh;
+    width: 40vw;
+    background-color: cornflowerblue;
+    display: block;
+    left: 10px;
+    top: 10px;
+}
+
+.smallrect{
+    position: absolute;
+    height: 20vh;
+    width: 10vw;
+    background-color:darkorange;
+    display: block;
+}
+
+.obstacle{
+    position: absolute;
+    height: 5vh;
+    width: 4vw;
+    background-color:rgb(0, 0, 0);
+    bottom:20px;
+    right:20px;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    border-radius: 10%;
+    background-color:rgba(243, 235, 235, 0.897) ;
+    left:15vw;
+    top:5vh;
+}
+.quadrant0{
+    top:10px;
+    left:10px;
+}
+.quadrant1{
+    top:10px;
+    right:10px;
+}
+.quadrant2{
+    bottom: 10px;
+    right: 10px;
+}
+.quadrant3{
+    bottom: 10px;
+    left:10px
+}
+
+#cycles{
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 60px;
+    border-radius: 10%;
+    border: black 1px solid;
+    left: 10px;
+    text-align: center;
+}
+
+.label{
+    display: inline-block;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    left:15vw;
+    top:10vh;
+    justify-content: flex-start;
+}
